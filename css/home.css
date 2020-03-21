@@ -1,0 +1,106 @@
+ /* start https://bootsnipp.com/snippets/orAGr Bootstrap 4.1.1 Snippet by yogeshctaklikar */
+ .navbar {
+  background: rgba(0, 0, 0, 0.2);
+}
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #52cbf9;
+  transition: 0.3s;
+}
+.nav-item:hover::after {
+  width: 90%;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #52cbf9;
+}
+.nav-link {
+  padding: 5px 5px;
+  transition: 0.2s;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #212529;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: #52cbf9;
+}
+/* end https://bootsnipp.com/snippets/orAGr Bootstrap 4.1.1 Snippet by yogeshctaklikar */
+/* start harryparkdotio https://stackoverflow.com/questions/39588914/how-do-i-add-a-data-offset-to-a-bootstrap-4-fixed-top-responsive-navbar */
+span.anchor {
+  margin-top: -120px;
+  /* height of nav, in this case 54px */
+  display: block;
+  height: 120px;
+  /* height of nav, in this case 54px */
+  visibility: hidden;
+  position: relative;
+}
+/* end harryparkdotio https://stackoverflow.com/questions/39588914/how-do-i-add-a-data-offset-to-a-bootstrap-4-fixed-top-responsive-navbar */
+/* start https://github.com/marcbruederlin/particles.js  */
+.particle-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+/* end https://github.com/marcbruederlin/particles.js  */
+/* start home styles Glenn Bacon */
+h3 {
+  font-size: 24px
+}
+h4 {
+  font-size: 20px
+}
+.hero {
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.9);
+  color: whitesmoke;
+}
+html {
+  scroll-behavior: smooth;
+}
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #B6B6B6;
+  display: block;
+  margin-top: 4px
+}
+.jumbotron {
+  padding: 1rem;
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  background-color: #103f67;
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler .top-bar {
+  transition: 0.3s;
+  transform: rotate(35deg);
+  transform-origin: 50% 50%;
+}
+.navbar-toggler .middle-bar {
+  transition: 0.3s;
+  transform: rotate(-35deg);
+  transform-origin: 0 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  transform: rotate(0);
+}
+.profile-img {
+  max-height: 200px;
+}
+/* end home styles Glenn Bacon */
