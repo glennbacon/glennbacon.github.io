@@ -1,1 +1,52 @@
-404 Page Not Found!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 Page Not Found</title>
+    <meta name="author" content="Glenn Bacon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+        .blackhole {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+
+        body {
+            background: url('img/blackhole.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            display: block;
+        }
+
+        canvas {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<canvas id="canvas" class="blackhole"></canvas>
+<header>
+    <div class="row mt-4">
+        <div class="container">
+            <div class="text-center col-12">
+                <h1 class="text-white">404 Page Not Found!</h1>
+                <h2 class="text-white">Something has gone terribly wrong!</h2>
+                <h3 class="text-white">Please use browser back button or the home button below!</h3>
+                <p><a class="btn btn-light btn-lg" href="https://glennbacon.github.io/" role="button">Home page</a></p>
+            </div>
+        </div>
+    </div>
+</header>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/home.js"></script>
+<script src="js/blackhole.js"></script>
+</body>
+</html>
