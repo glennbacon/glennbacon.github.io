@@ -151,7 +151,8 @@ function setup() {
     reset();
     setupParticles();
     blackHole = new BlackHole(w / 2, h / 2);
-    window.addEventListener("resize", reset);
+    //window.addEventListener("resize", reset);
+    window.addEventListener("resize", setup); // Glenn Bacon change to call setup
 }
 
 function setupParticles() {
