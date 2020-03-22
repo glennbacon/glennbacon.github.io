@@ -67,18 +67,20 @@ h4 {
 html {
   scroll-behavior: smooth;
 }
+.jumbotron {
+  padding: 1rem;
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  background-color: #103f67;
+}
+/* end home styles Glenn Bacon */
+/* start bootstrap animated hamburger https://codepen.io/glennbacon/pen/poJOEjw */
 .icon-bar {
   width: 22px;
   height: 2px;
   background-color: #B6B6B6;
   display: block;
   margin-top: 4px
-}
-.jumbotron {
-  padding: 1rem;
-  padding-top: 5rem;
-  margin-bottom: 1rem;
-  background-color: #103f67;
 }
 .navbar-toggler {
   border: none;
@@ -103,4 +105,4 @@ html {
 .profile-img {
   max-height: 200px;
 }
-/* end home styles Glenn Bacon */
+/* end bootstrap animated hamburger https://codepen.io/glennbacon/pen/poJOEjw */
