@@ -7,7 +7,7 @@
   "background_color": "#2196f3",
   "description": "Software engineer personal website of Glenn Bacon",
   "orientation": "any",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "https://glennbacon.github.io/",
   "icons": [
