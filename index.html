@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
     <link rel="manifest" href="manifest.json">
 </head>
+<body>
 <nav id="my-navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-sm"><a
         class="navbar-brand" href="#">Glenn Bacon</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#myNavbar"
@@ -43,167 +44,191 @@
         </ul>
     </div>
 </nav>
-<body class="bg-light" data-spy="scroll" data-target=".navbar" data-offset="50">
-<div class="jumbotron shadow">
-    <div class="text-center hero col-12">
-        <span class="anchor" id="home"></span>
-        <h1 class="display-4">Glenn Bacon</h1>
-        <h2 class="display-5">Software Engineer in Southern New Hampshire</h2>
-        <p class="pt-3"><a
-                class="btn btn-light btn-lg" href="mailto:glenn@glennbacon.com"
-                role="button">Let's talk &raquo;</a>
-        </p>
+
+<main role="main" class="bg-light" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <div class="jumbotron shadow">
+            <div class="text-center hero col-12">
+                <span class="anchor" id="home"></span>
+                <h1 class="display-4">Glenn Bacon</h1>
+                <h2 class="display-5">Software Engineer in Southern New Hampshire</h2>
+                <p class="pt-3"><a
+                        class="btn btn-light btn-lg" href="mailto:glenn@glennbacon.com"
+                        role="button">Let's talk &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <span class="anchor" id="aboutme"></span>
+        <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center">
+            <div class="col-12 col-md-5 col-lg-3 pt-md-4 pt-2 pb-4 text-center">
+                <img src="img/profile.jpg" alt="Glenn Bacon profile picture shadow"
+                     class="img-fluid img-thumbnail profile-img shadow-sm bg-white rounded">
+            </div>
+            <div class="col-12 col-md-7 col-lg-6">
+                <h3><i class="fas fa-user-circle"></i> About me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <span class="anchor" id="skills"></span>
+        <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center" data-aos="zoom-in">
+            <div class="col-12 col-md-7 col-lg-6">
+                <h3><i class="fas fa-laptop-code" data-aos="slide-up"></i> Skills</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-5 col-md-5 col-lg-3 p-0 m-2 m-md-0 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Languages</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fab fa-java"></i> Java</li>
+                    <li class="list-group-item"><i class="fab fa-python"></i> Python</li>
+                    <li class="list-group-item"><i class="fab fa-cuttlefish"></i> C++</li>
+                    <li class="list-group-item"><i class="fab fa-js-square"></i>Javascript</li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-3 p-0 m-2 m-md-1 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Databases</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fas fa-database"></i> MySQL</li>
+                    <li class="list-group-item"><i class="fas fa-database"></i> PostgreSQL</li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-3 p-0 m-2 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Frameworks</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fas fa-thumbs-up"></i> Django</li>
+                    <li class="list-group-item"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-3 p-0 m-2 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Tools</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fas fa-circle"></i> Eclipse</li>
+                    <li class="list-group-item"><i class="fab fa-microsoft"></i> VSCode</li>
+                </ul>
+            </div>
+        </div>
+        <span class="anchor" id="education"></span>
+        <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center" data-aos="zoom-in">
+            <div class="col-12 col-md-9 col-lg-7">
+                <h3><i class="fas fa-user-graduate" data-aos="slide-up"></i> Education</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-11 col-md-9 col-lg-5 p-0 m-2 m-md-0 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Degrees</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Southern New Hampshire University</h5>
+                    <h5 class="card-title">Bachelor's Computer Science with a concentration in Software Engineering</h5>
+                    <p>Anticipated graduation late 2021 or early 2022</p>
+                    <p class="card-text">Software Engineering using fundamental concepts and principles. Design and
+                        develop
+                        with a systematic approach, Agile software development, full stack software development,
+                        UX and UI principles, programming languages and testing.</p>
+                </div>
+            </div>
+            <div class="col-11 col-md-9 col-lg-5 p-0 m-2 m-md-1 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Certificates</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title"><a href="pdf/udacity.pdf">Udacity Front-End Web Developer Nanodegree</a>
+                    </h5>
+                    <p class="card-text">Create responsive high quality websites, dynamic applications and user
+                        experiences
+                        for the web. Develop website applications using JavaScript, HTML, CSS, and PWA using Service
+                        Worker.</p>
+                    <h5 class="card-title"><a href="pdf/comptia.pdf">CompTIA A+ Certification</a></h5>
+                    <p class="card-text">IT professional that can perform critical IT support tasks, technical support,
+                        computer service technician, and end point management.</p>
+                </div>
+            </div>
+        </div>
+        <span class="anchor" id="experience"></span>
+        <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center" data-aos="zoom-in">
+            <div class="col-12 col-md-9 col-lg-7">
+                <h3><i class="fab fa-connectdevelop" data-aos="slide-up"></i> Experience</h3>
+                <h4><span class="pr-2"><a href="pdf/resume.pdf"><i class="fas fa-file-pdf"></i>Resume </a></span>
+                    <span class="pr-2"><a href="https://github.com/glennbacon"><i
+                            class="fab fa-github"></i>Github </a></span><a
+                            href="https://www.linkedin.com/in/glennbacon/"><i class="fab fa-linkedin"></i>Linkedin</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-12 col-md-9 col-lg-5 p-0 m-2 m-md-0 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Company 1</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Creating awesome apps</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-9 col-lg-5 p-0 m-2 m-md-1 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
+                <div class="card-header">
+                    <h4>Company 2</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Creating awesome apps</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<main role="main" class="container">
-    <span class="anchor" id="aboutme"></span>
-    <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center">
-        <div class="col-12 col-md-5 col-lg-3 pt-md-4 pt-2 pb-4 text-center">
-            <img src="img/profile.jpg" alt="Glenn Bacon profile picture shadow"
-                 class="img-fluid img-thumbnail profile-img shadow-sm bg-white rounded">
-        </div>
-        <div class="col-12 col-md-7 col-lg-6">
-            <h3><i class="fas fa-user-circle"></i> About me</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-    <span class="anchor" id="skills"></span>
-    <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center" data-aos="zoom-in">
-        <div class="col-12 col-md-7 col-lg-6">
-            <h3><i class="fas fa-laptop-code" data-aos="slide-up"></i> Skills</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-5 col-md-5 col-lg-3 p-0 m-2 m-md-0 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Languages</h4>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fab fa-java"></i> Java</li>
-                <li class="list-group-item"><i class="fab fa-python"></i> Python</li>
-                <li class="list-group-item"><i class="fab fa-cuttlefish"></i> C++</li>
-                <li class="list-group-item"><i class="fab fa-js-square"></i>Javascript</li>
-            </ul>
-        </div>
-        <div class="col-5 col-md-3 p-0 m-2 m-md-1 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Databases</h4>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-database"></i> MySQL</li>
-                <li class="list-group-item"><i class="fas fa-database"></i> PostgreSQL</li>
-            </ul>
-        </div>
-        <div class="col-5 col-md-3 p-0 m-2 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Frameworks</h4>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-thumbs-up"></i> Django</li>
-                <li class="list-group-item"><i class="fab fa-bootstrap"></i> Bootstrap</li>
-            </ul>
-        </div>
-        <div class="col-5 col-md-3 p-0 m-2 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Tools</h4>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-circle"></i> Eclipse</li>
-                <li class="list-group-item"><i class="fab fa-microsoft"></i> VSCode</li>
-            </ul>
-        </div>
-    </div>
-    <span class="anchor" id="education"></span>
-    <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center" data-aos="zoom-in">
-        <div class="col-12 col-md-9 col-lg-7">
-            <h3><i class="fas fa-user-graduate" data-aos="slide-up"></i> Education</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-11 col-md-9 col-lg-5 p-0 m-2 m-md-0 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Degrees</h4>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Southern New Hampshire University</h5>
-                <h5 class="card-title">Bachelor's Computer Science with a concentration in Software Engineering</h5>
-                <p>Anticipated graduation late 2021 or early 2022</p>
-                <p class="card-text">Software Engineering using fundamental concepts and principles. Design and develop
-                    with a systematic approach, Agile software development, full stack software development,
-                    UX and UI principles, programming languages and testing.</p>
-            </div>
-        </div>
-        <div class="col-11 col-md-9 col-lg-5 p-0 m-2 m-md-1 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Certificates</h4>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title"><a href="pdf/udacity.pdf">Udacity Front-End Web Developer Nanodegree</a>
-                </h5>
-                <p class="card-text">Create responsive high quality websites, dynamic applications and user experiences
-                    for the web. Develop website applications using JavaScript, HTML, CSS, and PWA using Service
-                    Worker.</p>
-                <h5 class="card-title"><a href="pdf/comptia.pdf">CompTIA A+ Certification</a></h5>
-                <p class="card-text">IT professional that can perform critical IT support tasks, technical support,
-                    computer service technician, and end point management.</p>
-            </div>
-        </div>
-    </div>
-    <span class="anchor" id="experience"></span>
-    <div class="row bg-white rounded shadow p-4 mb-2 justify-content-center" data-aos="zoom-in">
-        <div class="col-12 col-md-9 col-lg-7">
-            <h3><i class="fab fa-connectdevelop" data-aos="slide-up"></i> Experience</h3>
-            <h4><span class="pr-2"><a href="pdf/resume.pdf"><i class="fas fa-file-pdf"></i>Resume </a></span>
-                <span class="pr-2"><a href="https://github.com/glennbacon"><i
-                        class="fab fa-github"></i>Github </a></span><a
-                        href="https://www.linkedin.com/in/glennbacon/"><i class="fab fa-linkedin"></i>Linkedin</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-12 col-md-9 col-lg-5 p-0 m-2 m-md-0 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Company 1</h4>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Creating awesome apps</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <div class="col-12 col-md-9 col-lg-5 p-0 m-2 m-md-1 m-md-2 m-lg-2 shadow" data-aos="zoom-in">
-            <div class="card-header">
-                <h4>Company 2</h4>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Creating awesome apps</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-    </div>
+    <footer class="container-fluid bg-dark text-light mt-5 p-3 text-center"><i class="fas fa-copyright"></i> Glenn
+        Bacon.
+        All product names, trademarks and registered trademarks are property of their respective owners.
+    </footer>
 </main>
-<footer class="container-fluid bg-dark text-light mt-5 p-3 text-center"><i class="fas fa-copyright"></i> Glenn Bacon.
-    All product names, trademarks and registered trademarks are property of their respective owners.
-</footer>
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/aos.js"></script>
@@ -216,6 +241,4 @@
     document.body.appendChild(el);
 </script>
 </body>
-
 </html>
-
