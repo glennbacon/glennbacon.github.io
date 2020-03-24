@@ -45,14 +45,6 @@ span.anchor {
   position: relative;
 }
 /* end harryparkdotio https://stackoverflow.com/questions/39588914/how-do-i-add-a-data-offset-to-a-bootstrap-4-fixed-top-responsive-navbar */
-/* start https://github.com/marcbruederlin/particles.js  */
-.particle-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-/* end https://github.com/marcbruederlin/particles.js  */
 /* start home styles Glenn Bacon */
 h3 {
   font-size: 24px
