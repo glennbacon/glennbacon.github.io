@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>404 Page Not Found</title>
+    <meta name="description" content="The missing page might be in this black hole.">
     <meta name="author" content="Glenn Bacon">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/aos.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Browser theme color -->
+    <meta name="theme-color" content="#fafafa">
+
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+    <link rel="manifest" href="manifest.json">
     <style>
         .blackhole {
             position: absolute;
@@ -49,5 +60,18 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/blackhole.js"></script>
 <script src="js/main.js"></script>
+<script>
+    // start canvas size http://jsfiddle.net/PQS3A/7/
+	let canvas = document.querySelector('canvas');
+	fitToContainer(canvas);
+
+	function fitToContainer(canvas) {
+		canvas.style.width = '100%';
+		canvas.style.height = '100%';
+		canvas.width = canvas.offsetWidth;
+		canvas.height = canvas.offsetHeight;
+	}
+	// end canvas size http://jsfiddle.net/PQS3A/7/
+</script>
 </body>
 </html>
