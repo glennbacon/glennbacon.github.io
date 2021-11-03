@@ -8,6 +8,7 @@
 	// end https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
 	// start aos
 	AOS.init({
+		disable: 'mobile',
 		easing: 'ease-out-back',
 		duration: 1000
 	});
